@@ -25,3 +25,25 @@
     line-height: 70px;
     float: left;
 }
+nav{
+    line-height: 70px;
+    float: right;  
+}
+
+nav a {
+color: #fff;
+display: inline-block;
+text-decoration: none;
+font-family: Arial Narrow;
+font-weight: bold;
+padding: 20px 10px;
+line-height: normal;
+font-size: 16px;
+-webkit-transition: all 500ms ease;
+transition: all 500ms ease;
+}
+
+nav a:hover{
+    color: #33cccc;
+    border-bottom: 5px solid #33cccc;
+}
